@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 10px 20px;
+    border-bottom: 2px solid #444;
+  }
+  
+  .navbar h1 {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+  }
+  
+  .link {
+    display: inline-block; 
+    list-style: none;
+    gap: 15px;
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; 
+  }
+
+  .navbar li a:hover {
+    background-color: #444;
+  }
+  
+
